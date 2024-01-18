@@ -1,5 +1,5 @@
 # LLaMA in R
-This repo was set up to learn the LLaMA implementation via R following a walk-through from Posit AI blog post [_LLaMA in R with Keras and TensorFlow_](https://blogs.rstudio.com/ai/posts/2023-05-25-llama-tensorflow-keras/), by Tomasz Kalinowski.
+This repo was set up to learn how to interact with the LLaMA implementation in R following a walk-through from Posit AI blog post [_LLaMA in R with Keras and TensorFlow_](https://blogs.rstudio.com/ai/posts/2023-05-25-llama-tensorflow-keras/), by Tomasz Kalinowski.
 
 # Recommended Installation Pattern
 - Ensure your machine has recently released versions of R and Python

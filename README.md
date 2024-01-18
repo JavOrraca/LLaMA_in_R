@@ -26,14 +26,14 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
-[1] tensorflow_2.14.0 tfautograph_0.3.2 envir_0.2.2       purrr_1.0.2      
-[5] keras_2.13.0     
+[1] keras_2.13.0      tfautograph_0.3.2 tensorflow_2.14.0 envir_0.2.2      
+[5] purrr_1.0.2      
 
 loaded via a namespace (and not attached):
  [1] backports_1.4.1   R6_2.5.1          base64enc_0.1-3   Matrix_1.6-5     
- [5] lattice_0.22-5    reticulate_1.34.0 magrittr_2.0.3    png_0.1-8        
- [9] generics_0.1.3    lifecycle_1.0.4   cli_3.6.2         vctrs_0.6.5      
-[13] grid_4.3.2        zeallot_0.1.0     tfruns_1.5.1      compiler_4.3.2   
-[17] rstudioapi_0.15.0 tools_4.3.2       whisker_0.4.1     Rcpp_1.0.12      
-[21] rlang_1.1.3       jsonlite_1.8.8   
+ [5] lattice_0.22-5    reticulate_1.34.0 magrittr_2.0.3    remotes_2.4.2.1  
+ [9] generics_0.1.3    png_0.1-8         lifecycle_1.0.4   cli_3.6.2        
+[13] grid_4.3.2        vctrs_0.6.5       zeallot_0.1.0     tfruns_1.5.1     
+[17] compiler_4.3.2    rstudioapi_0.15.0 tools_4.3.2       whisker_0.4.1    
+[21] Rcpp_1.0.12       rlang_1.1.3       jsonlite_1.8.8   
 ```

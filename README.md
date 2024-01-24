@@ -1,10 +1,21 @@
-# LLaMA in R
-This repo was set up to learn how to interact with the LLaMA implementation in R following a walk-through from Posit AI blog post [_LLaMA in R with Keras and TensorFlow_](https://blogs.rstudio.com/ai/posts/2023-05-25-llama-tensorflow-keras/), by Tomasz Kalinowski.
+# LLaMA-2-7B in R
+This repo was set up to learn how to interact with the LLaMA 2 implementation in R following a walk-through from Posit AI blog post [_LLaMA in R with Keras and TensorFlow_](https://blogs.rstudio.com/ai/posts/2023-05-25-llama-tensorflow-keras/), by Tomasz Kalinowski.
+
+### Attribution
+Kalinowski (2023, May 25). Posit AI Blog: LLaMA in R with Keras and TensorFlow. Retrieved from https://blogs.rstudio.com/tensorflow/posts/2023-05-25-llama-tensorflow-keras/
+
+# Overview
+While the original blog post leverages the LLaMA implementation, the code in this repo was slightly modified to make use of Meta's LLaMA 2. I used the pre-trained LLaMA-2-7B implementation to pass prompts and predict outputs using a 2022 MacBook Air (24 GB RAM, Apple silicon M2).
+
+As you can imagine (with no GPUs on a fairly basic chipset from an LLM or deep learning perspective), inference was SLOW. I mean, _DEAD SLOW_. Perhaps this can be attributed to user error, but it took my machine 5-10 minutes to predict the next 20 tokens given the prompt "The best way to attract bees." You've been warned!
+
+I honestly have to imagine my slowness is due to some user error along the way. I only say this because I've locally experimented with Mistral-7B and it is much _much_ faster than my experience with LLaMA. I'll dig into this more in the coming months when I have free time.
 
 # Setup
 - Ensure your machine has access to recently released versions of R and Python
 - This tutorial makes use of R's native pipe operator `|>` introduced in R 4.1.0
 - This project makes use of R's `renv` framework for project-package dependency management
+- You'll need to visit the [https://ai.meta.com/llama/#download-the-model](https://ai.meta.com/llama/#download-the-model) to download LLaMA 2 from Meta after submitting a request - Follow the instructions to ensure you receive a custom download URL that expires within 24 hours of delivery.
 
 # R Session Info
 ```{r}

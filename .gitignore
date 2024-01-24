@@ -23,3 +23,15 @@
 
 # Python virtual env folder
 .venv/
+
+# Apple DS trace
+.DS_Store
+
+# LLaMA-2-7B git clone
+llama/
+
+# LLaMA-2-7B tokenizer & weights
+llama-2-7b/
+tokenizer.model
+tokenizer_checklist.chk
+USE_POLICY.md
